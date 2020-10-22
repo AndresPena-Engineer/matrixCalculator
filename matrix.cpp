@@ -1,6 +1,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Description: 
-//             This is a matrix calculator that adds and multiplies 2 matrices. 
+//             This is part 1 of the 3 parts of a matrix lab. 
+//              This part of the project focuses on displaying/creating a matrix. 
+//              Also generating random values to populate the matrix.  
 //////////////////////////////////////////////////////////////////////////////////
 
 #include<iostream>
