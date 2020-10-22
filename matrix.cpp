@@ -1,8 +1,8 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Description: 
+//             This is a matrix calculator that adds and multiplies 2 matrices. 
+//////////////////////////////////////////////////////////////////////////////////
 
-// Andres Pena 
-// Lab4
-// 10/21/2018
-// matrix.cpp
 #include<iostream>
 #include<assert.h>
 #include <cstdlib>
@@ -21,13 +21,13 @@ double** arrayMatrix;
 double** values;
 
 
-//Creates an empty Matrix of size 0 × 0.
+//Creates an empty Matrix of size 0 ï¿½ 0.
 Matrix::Matrix() : Matrix(0, 0)
 {
 
 }
 
-//Creates an identity Matrix of size size × size. That is, the Matrix is filled with 0s except
+//Creates an identity Matrix of size size ï¿½ size. That is, the Matrix is filled with 0s except
 //for the diagonal which has value 1 everywhere.
 Matrix::Matrix(int size) : Matrix(size, size)
 {
@@ -36,7 +36,7 @@ Matrix::Matrix(int size) : Matrix(size, size)
 	}
 }
 
-// Creates a Matrix of size height × width filled with 0s.
+// Creates a Matrix of size height ï¿½ width filled with 0s.
 Matrix::Matrix(int height, int width)
 {
 	values = new double*[height];
@@ -76,7 +76,7 @@ int Matrix::getHeight() const
 }
 
 
-// Changes the size of the Matrix to height × width. Existing fields
+// Changes the size of the Matrix to height ï¿½ width. Existing fields
 // keep their value and new fields are set to 0. 
 // Note that it changes the Matrix and does not create a copy.
 void Matrix::resize(int height2, int width2)
